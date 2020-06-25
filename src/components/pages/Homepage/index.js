@@ -1,11 +1,14 @@
 import React from 'react'
+import './style.scss'
+
+
+import Directory from '../../Directory'
+
 
 function Homepage() {
     return (
-        <section>
-            <h2>
-                Homepage
-            </h2>
+        <section className="homepage">
+            <Directory />
         </section>
     )
 }
